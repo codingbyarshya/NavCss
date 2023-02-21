@@ -1,0 +1,102 @@
+
+.navbar {
+    background-color: rgba(33,37,41,255);
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    padding: 5px;
+    
+  }
+  .navbar-btn{
+    font-size: 17px;
+  }
+  
+  button {
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .white {
+    color: white;
+    background-color: transparent;
+  }
+  
+  .gray {
+    color: gray;
+    background-color: transparent;
+  }
+  
+  .disabled-btn {
+    color: gray;
+    background-color: lightgray;
+    cursor: not-allowed;
+    padding-right:950px;
+    padding-left: 0px;
+  }
+  .link-btn{
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-btn {
+    color: gray;
+    background-color: transparent;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .disabled-btn{
+    color:grey;
+    background-color: transparent;
+  }
+ 
+  .search-container {
+    display: flex;
+  }
+  
+  input[type=text] {
+    border: 2px solid green;
+    border-radius: 4px;
+    padding-right:10px;
+    content: "&nbsp;";
+  }
+  
+
+  .search-btn {
+    color: white;
+    background-color: rgba(34,37,42,255);
+    color:green;
+    border: 2px solid green;
+    border-left: 2px solid green;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   
+  }
+  
+  .search-btn:hover {
+    background-color: green;
+    color: white;
+  }
